@@ -129,6 +129,7 @@
     "Levels": {
       "mom": "Mother",
       "dad": "Father"
+    }
   },
   "pos_content_avg": {
     "LongName": "Parent-child interaction: Average positive content",
@@ -162,4 +163,5 @@
   "piper1_outliers": {
     "LongName": "Number of outlier volumes",
     "Description": "Number of scan volumes during the Piper movie fMRI scan that were either >1mm head motion or >3SD from mean for global signal intensity"
+  }
 }
