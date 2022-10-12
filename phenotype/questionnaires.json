@@ -1,0 +1,165 @@
+{
+  "dataset": {
+    "LongName": "Dataset",
+    "Description": "Indicates which of 2 studies the participant was enrolled through",
+    "Levels": {
+      "dataset1": "Dataset 1",
+      "dataset2": "Dataset 2"
+    }
+  },
+  "age_scan": {
+    "LongName": "Age",
+    "Description": "Child's age at the time of the MRI scan session",
+    "Units": "year"
+  },
+  "male": {
+    "LongName": "Gender",
+    "Description": "Child's gender, as reported by the parent",
+    "Levels": {
+      "0": "Female",
+      "1": "Male",
+      "2": "Other"
+    }
+  },
+  "black": {
+    "LongName": "Race: Black",
+    "Description": "Race: Black",
+    "Levels": {
+      "0": "Not Black",
+      "1": "Black"
+    }
+  },
+  "white": {
+    "LongName": "Race: White",
+    "Description": "Race: White",
+    "Levels": {
+      "0": "Not White",
+      "1": "White"
+    }
+  },
+  "asian": {
+    "LongName": "Race: Asian",
+    "Description": "Race: Asian",
+    "Levels": {
+      "0": "Not Asian",
+      "1": "Asian"
+    }
+  },
+  "other": {
+    "LongName": "Race: Other",
+    "Description": "Race: Other (includes American Indian or Alaska Native; Native Hawaiian or Other Pacific Islander; and Other)",
+    "Levels": {
+      "0": "Not Other",
+      "1": "Other"
+    }
+  },
+  "multiracial": {
+    "LongName": "Race: Multiracial",
+    "Description": "Race: Multiracial (parent indicated multiple race categories for child)",
+    "Levels": {
+      "0": "Not Multiracial",
+      "1": "Multiracial"
+    }
+  },
+  "hispanic": {
+    "LongName": "Ethnicity: Hispanic/Latino",
+    "Description": "Ethnicity: Hispanic/Latino",
+    "Levels": {
+      "0": "Hispanic/Latino",
+      "1": "Hispanic/Latino"
+    }
+  },
+  "parent1_edu": {
+    "LongName": "Parent 1 education level",
+    "Description": "What is the highest degree you have earned? [you = parent who filled out questionnaires]",
+    "Levels": {
+      "10": "Less than high school",
+      "12": "High school or GED",
+      "14": "Associate's degree",
+      "16": "Bachelor's degree",
+      "18": "Master's degree",
+      "20": "Professional degree (J.D., M.D., Ph.D.)"
+    },
+    "Units": "year"
+  },
+  "parent2_edu": {
+    "LongName": "Parent 2 education level",
+    "Description": "What is the highest degree your partner has earned? [partner of parent who filled out questionnaires, if applicable]",
+    "Levels": {
+      "10": "Less than high school",
+      "12": "High school or GED",
+      "14": "Associate's degree",
+      "16": "Bachelor's degree",
+      "18": "Master's degree",
+      "20": "Professional degree (J.D., M.D., Ph.D.)"
+    },
+    "Units": "year"
+  },
+  "income_rank": {
+    "LongName": "Income rank",
+    "Description": "Which of these categories best describes your total combined family income for the past 12 months? This should include income (before taxes) from all sources, wages, rent from properties, social security, disability and/or veteran's benefits, unemployment benefits, workman's compensation, help from relatives (including child payments and alimony), and so on.",
+    "Levels": {
+      "0": "Less than $5,000",
+      "1": "$5,000 through $11,999",
+      "2": "$12,000 through $15,999",
+      "3": "$16,000 through $24,999",
+      "4": "$25,000 through $34,999",
+      "5": "$35,000 through $49,999",
+      "6": "$50,000 through $74,999",
+      "7": "$75,000 through $99,999",
+      "8": "$100,000 through $149,999",
+      "9": "$150,000 through $199,999",
+      "10": "$200,000 and greater",
+      "11": "Unsure"
+    },
+    "Units": "U.S. dollars"
+  },
+  "income_median": {
+    "LongName": "Income",
+    "Description": "Median of the parent's income bracket (see income_rank variable)",
+    "Units": "U.S. dollars"
+  },
+  "les_1y_sum": {
+    "LongName": "Stressful life events (Life Events Scale for Young Children)",
+    "Description": "Total stress experienced by the child due to life events that occurred in the last year"
+  },
+  "parent" : {
+    "LongName": "Parent",
+    "Description": "Parent who participated with the child during the parent-child interaction task",
+    "Levels": {
+      "mom": "Mother",
+      "dad": "Father"
+  },
+  "pos_content_avg": {
+    "LongName": "Parent-child interaction: Average positive content",
+    "Description": "PARCHISY code, positive content is defined as use of praise, explanation, and open-ended questions"
+  },
+  "pos_affect_avg": {
+    "LongName": "Parent-child interaction: Average positive affect",
+    "Description": "PARCHISY code, positive affect is defined as smiling, laughing"
+  },
+  "neg_content_avg": {
+    "LongName": "Parent-child interaction: Average negative content",
+    "Description": "PARCHISY code, negative content is defined as use of physical control of task or child’s hand/arm/body, use of criticism"
+  },
+  "neg_affect_avg": {
+    "LongName": "Parent-child interaction: Average negative affect",
+    "Description": "PARCHISY code, negative affect is defined as rejection: frowning, cold/harsh voice"
+  },
+  "pos_parent2": {
+    "LongName": "Positive parenting behaviors",
+    "Description": "Average of pos_content_avg and pos_affect_avg"
+  },
+  "neg_parent": {
+    "LongName": "Negative parenting behaviors",
+    "Description": "Average of neg_content_avg and neg_affect_avg"
+  },
+  "piper1_motion": {
+    "LongName": "Average composite motion",
+    "Description": "Child's average composite motion during the Piper movie fMRI scan",
+    "Units": "mm"
+  },
+  "piper1_outliers": {
+    "LongName": "Number of outlier volumes",
+    "Description": "Number of scan volumes during the Piper movie fMRI scan that were either >1mm head motion or >3SD from mean for global signal intensity"
+}
